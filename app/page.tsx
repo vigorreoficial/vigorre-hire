@@ -10,7 +10,6 @@ export default function HomePage() {
       fontFamily: 'Arial, sans-serif',
       padding: '20px'
     }}>
-      {/* Badge */}
       <div style={{ 
         background: '#6366F1', 
         color: 'white', 
@@ -22,7 +21,6 @@ export default function HomePage() {
         🚀 Vigorre Hire™
       </div>
 
-      {/* Título */}
       <h1 style={{ 
         fontSize: '48px', 
         fontWeight: 'bold', 
@@ -34,7 +32,6 @@ export default function HomePage() {
         <span style={{ color: '#6366F1' }}>Inteligência</span>
       </h1>
 
-      {/* Subtítulo */}
       <p style={{ 
         fontSize: '20px', 
         color: '#64748B', 
@@ -45,7 +42,6 @@ export default function HomePage() {
         Conectamos talentos e empresas com dados, IA e análise comportamental.
       </p>
 
-      {/* Botão */}
       <button style={{ 
         background: '#6366F1', 
         color: 'white', 
@@ -60,7 +56,6 @@ export default function HomePage() {
         Buscar Vagas
       </button>
 
-      {/* Números */}
       <div style={{ 
         display: 'flex', 
         gap: '60px', 
@@ -82,7 +77,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Rodapé */}
       <div style={{ 
         marginTop: '60px',
         paddingTop: '30px',
