@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "pnpm run build",
-  "installCommand": "pnpm install",
+  "buildCommand": "cd packages/frontend/web && npm install && npm run build",
+  "installCommand": "npm install",
   "outputDirectory": "packages/frontend/web/.next",
   "framework": "nextjs",
   "rewrites": [
