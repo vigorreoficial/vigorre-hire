@@ -1,13 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "cd packages/frontend/web && npm install && npm run build",
+  "buildCommand": "npm run build",
   "installCommand": "npm install",
-  "outputDirectory": "packages/frontend/web/.next",
-  "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/packages/frontend/web/$1"
-    }
-  ]
+  "framework": "nextjs"
 }
