@@ -1,1 +1,19 @@
-
+{
+  "name": "vigorre-hire",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "prettier": "^3.2.5"
+  },
+  "packageManager": "pnpm@8.15.9",
+  "engines": {
+    "node": ">=20"
+  }
+}
